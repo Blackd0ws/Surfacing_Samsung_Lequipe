@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdoc>
+
+    <!-- Infos générales -->
+    <title>Documentation Surfacing Samsung</title>
+
+    <!-- Déclaration des packages avec leurs fichiers -->
+    <files>
+        <!-- 📦 Broadcast -->
+        <file>src/Broadcast/Classes/BroadcastProgram.php</file>
+        <file>src/Broadcast/Classes/BroadcastPrograms.php</file>
+        <file>src/Broadcast/BroadcastComparator.php</file>
+
+        <!-- 📦 Explore -->
+        <file>src/Explore/Classes/ExploreProgram.php</file>
+        <file>src/Explore/Classes/ExplorePrograms.php</file>
+        <file>src/Explore/ExploreComparator.php</file>
+
+        <!-- 📦 ParentClasses -->
+        <file>src/ParentClasses/Comparator.php</file>
+        <file>src/ParentClasses/Program.php</file>
+        <file>src/ParentClasses/Programs.php</file>
+        <file>src/ParentClasses/SurfacingPrograms.php</file>
+
+        <!-- 📦 Surfacing -->
+        <file>src/Surfacing/SurfacingBroadcasts.php</file>
+        <file>src/Surfacing/SurfacingExplores.php</file>
+        <file>src/Surfacing/SurfacingVOD.php</file>
+        <file>src/Surfacing/SurfBroadcast.php</file>
+        <file>src/Surfacing/SurfExplore.php</file>
+        <file>src/Surfacing/SurfVOD.php</file>
+
+        <!-- 📦 VOD -->
+        <file>src/VOD/Classes/VODProgram.php</file>
+        <file>src/VOD/Classes/VODPrograms.php</file>
+        <file>src/VOD/VODComparator.php</file>
+
+        <!-- 📦 Root -->
+        <file>src/Controller.php</file>
+    </files>
+
+    <!-- Parser options -->
+    <parser>
+        <default-package-name>surfacingProject</default-package-name>
+        <!-- Inclure toutes les visibilités -->
+        <visibility>public,protected,private</visibility>
+    </parser>
+
+    <!-- Génération HTML -->
+    <transformations>
+        <template name="responsive-twig" />
+    </transformations>
+</phpdoc>
